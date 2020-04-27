@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-visual.css">
 </head>
 <body>
 
@@ -35,10 +35,10 @@
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="visualizations/MaxTemp.html">Maximum Temperature</a>
-                  <a class="dropdown-item" href="visualizations/Humidity.html">Humidity</a>
-                  <a class="dropdown-item" href="visualizations/Cloudiness.html">Cloudiness</a>
-                  <a class="dropdown-item" href="visualizations/Wind_Speed.html">Wind Speed</a>
+                  <a class="dropdown-item" href="../visualizations/MaxTemp.html">Maximum Temperature</a>
+                  <a class="dropdown-item" href="../visualizations/Humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="../visualizations/Cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="../visualizations/Wind_Speed.html">Wind Speed</a>
                 </div>
             </li>
 
@@ -60,17 +60,15 @@
           <div class="row">
             <div class="col-md-6">
              
-          <h1><b>Summary: Latitude vs. X</b></h1>   
+          <h1><b>Wind Speed</b></h1>   
           <br>
           <br>
-                    <div class="image-wrapper"></div>
-                      <a target="_blank" href="visualizations/MaxTemp.html">
-                        <img src="assets/images/Fig1.png" alt="Latitude vs Max Temperature" width = "400" class = left>
+
+                      <a target="_blank" href="../visualizations/Wind_Speed.html">
+                        <img src="../assets/images/Fig4.png" alt="Latitude vs Wind Speed" width = "1000" class = left>
                       </a>
-                      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled datafrom teh OpenWeatherMap API to asssemble a dataset of 500 cities.
-                      <br>
-                      <br>
-                      After assembling the dataset, we used Matplotlib to put various aspects of the weather vs. lattitude.  Factors we looked at included temperature, cloudiness, wind speed and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any tends and correlations witnessed.
+                      <p>There doesn't seem to be much correlation between the wind speed and the latitude.  Suggesting there are other factors that may have a greater effect on wind speed such as weather conditions.
+                      
                     </p>
                     
                     </div>
@@ -81,23 +79,23 @@
                           
                            
 
-                              <a target="_blank" href="visualizations/MaxTemp.html">
-                                <img src="assets/images/Fig1.png" alt="Latitude vs Max Temperature" class =left class="figure-img img-fluid rounded"
+                              <a target="_blank" href="../visualizations/MaxTemp.html">
+                                <img src="../assets/images/Fig1.png" alt="Latitude vs Max Temperature" class =thumbs class="figure-img img-fluid rounded" 
                                   >
                               </a>
                             
-                              <a target="_blank" href="visualizations/MaxTemp.html">
-                                <img src="assets/images/Fig2.png" alt="Latitude vs Humidity" class = left class="figure-img img-fluid rounded"
+                              <a target="_blank" href="../visualizations/Humidity.html">
+                                <img src="../assets/images/Fig2.png" alt="Latitude vs Humidity" class = thumbs class="figure-img img-fluid rounded"
                                  >
                               </a>
 
-                              <a target="_blank" href="visualizations/MaxTemp.html">
-                                <img src="assets/images/Fig3.png" alt="Latitude vs Cloudiness" class = left class="figure-img img-fluid rounded"
+                              <a target="_blank" href="../visualizations/Cloudiness.html">
+                                <img src="../assets/images/Fig3.png" alt="Latitude vs Cloudiness" class = thumbs class="figure-img img-fluid rounded"
                                 >
                               </a>
 
-                              <a target="_blank" href="visualizations/MaxTemp.html">
-                                <img src="assets/images/Fig4.png" alt="Latitude vs Wind Speed" class = left class="figure-img img-fluid rounded"
+                              <a target="_blank" href="../visualizations/Wind_Speed.html">
+                                <img src="../assets/images/Fig4.png" alt="Latitude vs Wind Speed" class = thumbs class="figure-img img-fluid rounded" style="border:5px solid blue"
                                 > 
 
                               </figure>
