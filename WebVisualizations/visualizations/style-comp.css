@@ -44,24 +44,17 @@ h2 {
 }
 
 .thumbs {
-  float: left;
-  width: 600px;
-  
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+ 
+  width: 500px;
+  margin:20px;
 }
 
 .figure {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.right {
-  float: right;
-  width: 200px;
-}
+
 
 p {
   font-size: 18px;
@@ -70,24 +63,18 @@ p {
 } 
 
 .container-fluid {
-  background-color: white;
+  background-color: lightgray;
 }
 
-.container {
-  background-color: white;
-}
 
-.col-md-6 {
+
+.col-md-11 {
   
   background-color: white;
-  margin-left: 100px;
-
-
+  margin: 20px;
+  padding: 0px;
 }
 
-.col-md-4 {
-  
-  background-color: white;
-  margin-left: 40px;
+.row {
+  margin-left: 50px;
 }
-  
