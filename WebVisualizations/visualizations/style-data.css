@@ -2,9 +2,6 @@
   color:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: xx-large;
-
-
-
 }
 
 h1 {
@@ -58,11 +55,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.right {
-  float: right;
-  width: 200px;
-}
-
 p {
   font-size: 18px;
   line-height: 36px;
@@ -74,36 +66,14 @@ p {
 
 }
 
-.container {
-  background-color: white;
-}
 
-.col-md-6 {
+.col-md-11 {
   
   background-color: white;
   margin: 40px;
-  margin-right: 0px;
 
-
-}
-
-.col-md-4 {
-  
-  background-color: white;
-  margin: 40px;
 }
 
 .dataframe {
-	margin-left: 200px
+    margin-left: 200px
 }
-
-@media only screen and (max-width: 764px){
-  .col-md-6{
-    margin: 40px;
-    margin-bottom: 0px;}
-}
-
-  .figure {
-    display: inline;
-   
-  }
